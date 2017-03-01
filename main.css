@@ -1,3 +1,36 @@
 body {
-  background-color: gray;
+  background-color: #eeeeee;
+}
+
+ul {
+  list-style-image: url('//spitz2.ra9.jp/assets/pc/images/common/contents-header-menu.png')
+}
+
+body.index h1 {
+  
+}
+
+body.pc h1 {
+  background-color: #3366ff;
+}
+
+body.fp-d h1 {
+  background-color: #cb002c;
+}
+
+body.fp-a h1 {
+  background-color: #eb5505;
+}
+
+body.fp-s h1 {
+  background-color: #b7bbbe;
+}
+
+body.sp-i h1 {
+  background-color: #313131;
+  color:white;
+}
+
+body.sp-a h1 {
+  background-color: #77c159;
 }
