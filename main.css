@@ -41,3 +41,13 @@ body.sp-i h1 {
 body.sp-a h1 {
   background-color: #77c159;
 }
+
+h2.ses {
+  background-color: yellow;
+}
+h2.cv {
+  background-color: orange;
+}
+h2.ses-cv {
+  background-color: red;
+}
