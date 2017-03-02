@@ -6,8 +6,15 @@ ul {
   list-style-image: url('//spitz2.ra9.jp/assets/pc/images/common/contents-header-menu.png')
 }
 
+dl {
+  font-size: small;
+}
+dt {
+  font-weight: bold;
+}
+
 body.index h1 {
-  
+
 }
 
 body.pc h1 {
