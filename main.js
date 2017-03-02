@@ -1,6 +1,9 @@
 
 (function(){
   for(var key in $.cookie()){
-    $("#cookies").append("<dt>"+ key + "</dt><dd>"+ $.cookie(key)+"</dd>")
+    var val = $.cookie(key)
+    console.log(typeof val)
+    if ((typeof val) == "object") { val = val[key] }
+    $("#cookies").append("<dt>"+ key + "</dt><dd>"+ val +"</dd>")
   }
 })()
